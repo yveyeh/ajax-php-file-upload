@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax-Php file upload</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="upload_file_area">
+        <form enctype="multipart/form-data">
+            <input type="file" name="upload_file" accept="application/pdf" hidden>  
+        </form>
+        <button class="btn btn-upload" id="upload_file">
+            <i class="fa fa-file-upload mr-2"></i>
+            Upload a file
+        </button>
+        <p>File must be a "<b>.pdf</b>" file and have a maximum size of <b>2 Mb</b>.</p>
+    </div>
+</body>
+<!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- JS -->
+<script src="js/script.js"></script>
+
+</html>
