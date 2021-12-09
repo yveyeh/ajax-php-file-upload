@@ -34,3 +34,25 @@
     background-color: #0b5ed7;
     border-color: #0a58ca
 }
+
+#feedback {
+    margin: 1.975rem auto;
+    display: none;
+}
+
+.alert {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.25rem;
+}
+
+.alert-error {
+    color: #650000;
+    background-color: #ff000050;
+    border: 0.5px solid #ff000050;
+}
+
+.alert-success {
+    color: #006511;
+    background-color: #00ff3745;
+    border: 0.5px solid #00ff3745;
+}

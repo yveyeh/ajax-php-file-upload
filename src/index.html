@@ -16,13 +16,18 @@
 <body>
     <div id="upload_file_area">
         <form enctype="multipart/form-data">
-            <input type="file" name="upload_file" accept="application/pdf" hidden>  
+            <input type="file" name="upload_file" accept="application/pdf" hidden>
         </form>
         <button class="btn btn-upload" id="upload_file">
             <i class="fa fa-file-upload mr-2"></i>
             Upload a file
         </button>
         <p>File must be a "<b>.pdf</b>" file and have a maximum size of <b>2 Mb</b>.</p>
+        <p id="feedback">
+            <span class="alert">
+                <!--- feedback message gets injected here -->
+            </span>
+        </p>
     </div>
 </body>
 <!-- jQuery CDN -->
